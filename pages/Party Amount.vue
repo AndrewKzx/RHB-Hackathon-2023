@@ -17,16 +17,23 @@
       </div>
 
       <div class="flex justify-around">
+        
         <button
           class="bg-white border-2 border-black rounded-xl text-black p-[5px] w-[150px]"
         >
           Add from Contacts
         </button>
+
+        <nuxt-link to="addaccounts">
+        <div>
         <button
           class="bg-white border-2 border-black rounded-xl text-black p-[5px] w-[150px]"
         >
-          Invite to Party
+          Add from Account
         </button>
+        </div>
+      </nuxt-link>
+
       </div>
     </div>
     <div class="h-4/6 w-screen bg-[#f3f3f3] pt-[5px] overflow-y-auto">
@@ -141,6 +148,7 @@
         </div>
       </div>
     </div>
+    <nuxt-link to="Pending Page">
     <div class="p-[20px] flex space-between">
       <button
         class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-3/6"
@@ -153,6 +161,7 @@
         Back
       </button>
     </div>
+  </nuxt-link>
   </div>
 </template>
 

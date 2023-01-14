@@ -9,9 +9,11 @@
     </div>
 
     <div class="mt-12 min-w-screen h-90 bg-[#1e6bb0] flex justify-center items-center">
+        <nuxt-link to="transactioncomp">
         <div class="">
             <img class="p-8" src="../imgs/qrcode.png" />
         </div>
+        </nuxt-link>
     </div>
 
     <div class="pt-10 pl-8 pb-10 font-bold text-gray-500" style="font-size: 14px">

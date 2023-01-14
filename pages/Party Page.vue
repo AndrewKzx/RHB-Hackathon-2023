@@ -21,9 +21,12 @@
           <img class="" src="../icons/plus.png" />
         </button>
       </div>
+      
+      <nuxt-link to="Party Amount">
       <div
         class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
+        
         <div class="w-10/12 pl-[20px]">
           <p class="text-xl text-[#6B6B6B] font-semibold">25/10 Birthday</p>
           <p class="text-sm text-[#6B6B6B] font-semibold">Date Created:</p>
@@ -32,10 +35,12 @@
           </p>
           <p class="text-sm text-red-700 font-semibold">unpaid</p>
         </div>
+  
         <div class="w-1/12">
           <img class="block mx-auto my-auto" src="../icons/cross.png" />
         </div>
       </div>
+      </nuxt-link>
 
       <div
         class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"

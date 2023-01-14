@@ -5,15 +5,12 @@
         <img class="h-[23px]" src="../imgs/RHBPartyWhiteLogo.png" />
       </div>
       <div class="w-4/6 h-[86px] display mx-auto mb-[20px]">
-        <p class="text-[#6B6B6B] text-3xl text-center font-bold">
-          Waiting for 0/6 to accept
+        <p class="text-[#6B6B6B] text-2xl text-center font-bold">
+          Total: RM 100
         </p>
+        <p class="text-[#6B6B6B] text-2xl text-center font-bold">Paid: 5</p>
+        <p class="text-[#6B6B6B] text-2xl text-center font-bold">Unpaid: 1</p>
       </div>
-      <button
-        class="block m-auto rounded-xl text-white bg-[#E58585] p-[5px] w-2/6"
-      >
-        Cancel
-      </button>
     </div>
     <div class="h-3/5 w-screen bg-[#1e6bb0] overflow-y-auto pt-[25px]">
       <div
@@ -27,11 +24,11 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 20.00 </span>
+            <span class="text-green-500 pl-2"> 20.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-green-500 pl-2"> Paid </span>
           </p>
         </div>
         <div class="w-1/12"></div>
@@ -47,11 +44,11 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 10.00 </span>
+            <span class="text-green-500 pl-2"> 10.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-red-600 pl-2"> Unpaid </span>
           </p>
         </div>
         <div class="w-1/12"></div>
@@ -67,11 +64,11 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 10.00 </span>
+            <span class="text-green-500 pl-2"> 20.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-green-500 pl-2"> Paid </span>
           </p>
         </div>
         <div class="w-1/12"></div>
@@ -87,11 +84,11 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 10.00 </span>
+            <span class="text-green-500 pl-2"> 20.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-green-500 pl-2"> Paid </span>
           </p>
         </div>
         <div class="w-1/12"></div>
@@ -107,11 +104,11 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 20.00 </span>
+            <span class="text-green-500 pl-2"> 20.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-green-500 pl-2"> Paid </span>
           </p>
         </div>
         <div class="w-1/12"></div>
@@ -127,27 +124,22 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 20.00 </span>
+            <span class="text-green-500 pl-2"> 20.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-green-500 pl-2"> Paid </span>
           </p>
         </div>
         <div class="w-1/12"></div>
       </div>
     </div>
-   <nuxt-link to="Accept Prompt">
+    <nuxt-link to="Reminder">
     <div class="p-[20px] flex space-between">
       <button
         class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-3/6"
       >
-        Get QR Code
-      </button>
-      <button
-        class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-2/6"
-      >
-        Back
+        Remind
       </button>
     </div>
   </nuxt-link>

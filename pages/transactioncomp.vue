@@ -18,11 +18,11 @@
             <img class="pl-10 pr-10" src="../imgs/transactioncomp.png" />
         </div>
 
-        <nuxt-link to="transactioncomp">
+        <nuxt-link to="Status Page">
             <div class="p-[20px] ">
                 <button
                   class="block m-auto rounded-xl text-white bg-[#0365B8] p-[15px] w-3/6 font-bold">
-                  Back to Home
+                  View Status
                 </button>
               </div>
             </nuxt-link>

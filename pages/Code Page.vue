@@ -18,6 +18,9 @@
     <div class="w-5/6 mx-auto mb-[50px]">
       <p class="text-sm text-center text-[#6B6B6B]">Resend Code?</p>
     </div>
+
+    <nuxt-link to="Accepted Page">
+    <div>
     <button
       class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-2/6 mb-[30px]"
     >
@@ -29,6 +32,8 @@
     >
       Reject
     </button>
+  </div>
+</nuxt-link>
   </div>
 </template>
 

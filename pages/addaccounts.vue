@@ -74,18 +74,22 @@
             <p><b>Bank Selected:</b> RHB Bank</p>
         </div>
 
+        <nuxt-link to="Party Amount">
         <div class="pt-40 flex space-between">
-            <button
+
+            <button 
               class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-3/6"
             >
               Invite
             </button>
+      
             <button
               class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-2/6"
             >
               Back
             </button>
           </div>
+        </nuxt-link>
     </div>
 </template>
 

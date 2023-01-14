@@ -19,22 +19,22 @@
       <div
         class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
-        <div class="w-3/12">
-          <img class="block mx-auto my-auto" src="../imgs/person1.png" />
-        </div>
-        <div class="w-7/12">
-          <p class="text-[#6B6B6B] font-semibold">James Williamson</p>
-          <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
-          <p class="text-[#6B6B6B] font-semibold">
-            RM:
-            <span class="text-[#D1D384] pl-2"> 20.00 </span>
-          </p>
-          <p class="text-[#6B6B6B] font-semibold">
-            Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
-          </p>
-        </div>
-        <div class="w-1/12"></div>
+      <div class="w-3/12">
+        <img class="block mx-auto my-auto" src="../imgs/person1.png" />
+      </div>
+      <div class="w-7/12">
+        <p class="text-[#6B6B6B] font-semibold">James Williamson</p>
+        <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
+        <p class="text-[#6B6B6B] font-semibold">
+          RM:
+          <span class="text-green-500 pl-2"> 20.00 </span>
+        </p>
+        <p class="text-[#6B6B6B] font-semibold">
+          Status:
+          <span class="text-green-500 pl-2"> Accepted </span>
+        </p>
+      </div>
+      <div class="w-1/12"></div>
       </div>
       <div
         class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
@@ -47,11 +47,11 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 10.00 </span>
+            <span class="text-green-500 pl-2"> 10.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-green-500 pl-2"> Accepted </span>
           </p>
         </div>
         <div class="w-1/12"></div>
@@ -67,11 +67,11 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 10.00 </span>
+            <span class="text-green-500 pl-2"> 10.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-green-500 pl-2"> Accepted </span>
           </p>
         </div>
         <div class="w-1/12"></div>
@@ -87,11 +87,11 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 10.00 </span>
+            <span class="text-green-500 pl-2"> 10.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-green-500 pl-2"> Accepted </span>
           </p>
         </div>
         <div class="w-1/12"></div>
@@ -107,11 +107,11 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 20.00 </span>
+            <span class="text-green-500 pl-2"> 20.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-green-500 pl-2"> Accepted </span>
           </p>
         </div>
         <div class="w-1/12"></div>
@@ -127,16 +127,17 @@
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
             RM:
-            <span class="text-[#D1D384] pl-2"> 20.00 </span>
+            <span class="text-green-500 pl-2"> 20.00 </span>
           </p>
           <p class="text-[#6B6B6B] font-semibold">
             Status:
-            <span class="text-[#D1D384] pl-2"> Pending </span>
+            <span class="text-green-500 pl-2"> Accepted </span>
           </p>
         </div>
         <div class="w-1/12"></div>
       </div>
     </div>
+    <nuxt-link to="qrcode">
     <div class="p-[20px] flex space-between">
       <button
         class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-3/6"
@@ -149,6 +150,7 @@
         Back
       </button>
     </div>
+  </nuxt-link>
   </div>
 </template>
 
