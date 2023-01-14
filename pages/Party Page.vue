@@ -10,7 +10,7 @@
         type="text"
       />
     </div>
-    <div class="w-screen overflow-y-auto pt-[25px]">
+    <div class="h-3/4 w-screen overflow-y-auto pt-[25px]">
       <div
         class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
@@ -43,7 +43,10 @@
         <div class="w-10/12 pl-[20px]">
           <p class="text-xl text-[#6B6B6B] font-semibold">Dinner party</p>
           <p class="text-sm text-[#6B6B6B] font-semibold">Date Created:</p>
-          <p class="text-sm text-[#6B6B6B] font-semibold">16/10/2023</p>
+          <p class="text-sm text-[#6B6B6B] font-semibold mb-[5px]">
+            16/10/2023
+          </p>
+          <p class="text-sm text-green-400 font-semibold">paid</p>
         </div>
         <div class="w-1/12">
           <img class="block mx-auto my-auto" src="../icons/cross.png" />
@@ -56,12 +59,22 @@
         <div class="w-10/12 pl-[20px]">
           <p class="text-xl text-[#6B6B6B] font-semibold">Funding for house</p>
           <p class="text-sm text-[#6B6B6B] font-semibold">Date Created:</p>
-          <p class="text-sm text-[#6B6B6B] font-semibold">16/10/2023</p>
+          <p class="text-sm text-[#6B6B6B] font-semibold mb-[5px]">
+            16/10/2023
+          </p>
+          <p class="text-sm text-green-400 font-semibold">paid</p>
         </div>
         <div class="w-1/12">
           <img class="block mx-auto my-auto" src="../icons/cross.png" />
         </div>
       </div>
+    </div>
+    <div class="pt-[25px]">
+      <button
+        class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-3/6"
+      >
+        Back
+      </button>
     </div>
   </div>
 </template>

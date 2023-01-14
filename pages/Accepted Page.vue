@@ -137,11 +137,16 @@
         <div class="w-1/12"></div>
       </div>
     </div>
-    <div class="pt-[25px]">
+    <div class="p-[20px] flex space-between">
       <button
         class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-3/6"
       >
         Get QR Code
+      </button>
+      <button
+        class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-2/6"
+      >
+        Back
       </button>
     </div>
   </div>
