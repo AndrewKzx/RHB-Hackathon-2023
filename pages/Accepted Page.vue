@@ -137,20 +137,25 @@
         <div class="w-1/12"></div>
       </div>
     </div>
-    <nuxt-link to="qrcode">
-    <div class="p-[20px] flex space-between">
-      <button
-        class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-3/6"
-      >
-        Get QR Code
-      </button>
-      <button
-        class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-2/6"
-      >
-        Back
-      </button>
+    <div class="pt-4 pl-6 flex space-between">
+      <nuxt-link to="qrcode">
+        <div name="Next" class="box-border shadow-md p-10 h-4 rounded-xl flex justify-center items-center" style="background-color: #0365B8"> 
+            
+            <h1 class="text-white text-center">
+                Pay With QR
+            </h1>
+        </div>
+        </nuxt-link>
+        
+        <nuxt-link to="Pending Page">
+          <div name="Next" class="box-border shadow-md ml-14 p-10 h-4 rounded-xl flex justify-center items-center" style="background-color: #a4a4a4"> 
+              
+              <h1 class="text-white text-center">
+                  Back 
+              </h1>
+          </div>
+          </nuxt-link>
     </div>
-  </nuxt-link>
   </div>
 </template>
 

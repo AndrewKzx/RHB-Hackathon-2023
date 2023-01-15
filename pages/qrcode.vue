@@ -8,7 +8,7 @@
         <p>Show your QR Code</p>
     </div>
 
-    <div class="mt-12 min-w-screen h-90 bg-[#1e6bb0] flex justify-center items-center">
+    <div class="mt-12 min-w-screen h-90 bg-[#6acde7] flex justify-center items-center">
         <nuxt-link to="transactioncomp">
         <div class="">
             <img class="p-8" src="../imgs/qrcode.png" />
@@ -22,16 +22,15 @@
         <p>RHB Points : 1000</p>
     </div>
 
-    <nuxt-link to="transactioncomp">
-    <div class="p-[20px] ">
-        <button
-          class="block m-auto rounded-xl text-white bg-[#E79C9C] p-[15px] w-3/6"
-        >
-          Cancel
-        </button>
-      </div>
-    </nuxt-link>
+    <nuxt-link to="Accepted Page">
+        <div class="box-border ml-20 mr-20 mt-10 h-12 rounded-xl mb-2 flex justify-center items-center" style="background-color: #E79C9C"> 
+            
+            <h1 class="text-white text-center">
+                Cancel
+            </h1>
+        </div>
+        </nuxt-link>
 </div>
       
-    
+    <!--E79C9C-->
 </template>

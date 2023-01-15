@@ -1,33 +1,35 @@
 <template>
   <div class="h-screen">
-    <div class="flex flex-col bg-[#1e6bb0] pt-3 pl-7 pr-7 pb-[15px]">
-      <div class="p-[10px] h-23 bg-white rounded-3xl mb-[28px]">
-        <p class="text-center mb-[12px]">
+    <div class="flex flex-col bg-[#6ACDE7] pt-3 pl-7 pr-7 pb-[15px]">
+      <div class="p-[10px] h-23 shadow-md bg-white rounded-3xl mb-[28px]">
+        <p class="text-center mb-[10px] mt-2">
           Total amount:
           <span class="text-[#6B6B6B] underline pl-4"> RM 100 </span>
         </p>
-        <div class="flex justify-around">
-          <button class="rounded-xl text-white bg-[#95D0A9] p-[5px] w-2/6">
+        <div class="flex justify-around pb-2 pt-2">
+          <button class="rounded-xl shadow-md text-black bg-[#f2f2f2] p-[5px] w-2/6">
             Split Evenly
           </button>
-          <button class="rounded-xl text-white bg-[#E58585] p-[5px] w-2/6">
-            Reset
-          </button>
+
         </div>
       </div>
 
       <div class="flex justify-around">
         
+        <nuxt-link to="Add Contacts">
+        <div>
         <button
-          class="bg-white border-2 border-black rounded-xl text-black p-[5px] w-[150px]"
+          class="bg-white shadow-md rounded-xl text-black p-[7px] w-[150px]"
         >
           Add from Contacts
         </button>
+      </div>
+    </nuxt-link>
 
         <nuxt-link to="addaccounts">
         <div>
         <button
-          class="bg-white border-2 border-black rounded-xl text-black p-[5px] w-[150px]"
+          class="bg-white shadow-md rounded-xl text-black p-[7px] w-[150px]"
         >
           Add from Account
         </button>
@@ -54,7 +56,7 @@
       />
       <div></div>
       <div
-        class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
+        class="rounded-xl shadow-md w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
         <div class="w-3/12">
           <img class="block mx-auto my-auto" src="../imgs/person1.png" />
@@ -73,7 +75,7 @@
       </div>
 
       <div
-        class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
+        class="rounded-xl shadow-md w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
         <div class="w-3/12">
           <img class="block mx-auto my-auto" src="../imgs/person2.png" />
@@ -92,7 +94,7 @@
       </div>
 
       <div
-        class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
+        class="rounded-xl shadow-md w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
         <div class="w-3/12">
           <img class="block mx-auto my-auto" src="../imgs/person3.png" />
@@ -111,7 +113,7 @@
       </div>
 
       <div
-        class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
+        class="rounded-xl shadow-md w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
         <div class="w-3/12">
           <img class="block mx-auto my-auto" src="../imgs/person4.png" />
@@ -130,7 +132,7 @@
       </div>
 
       <div
-        class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
+        class="rounded-xl shadow-md w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
         <div class="w-3/12">
           <img class="block mx-auto my-auto" src="../imgs/person1.png" />
@@ -148,20 +150,15 @@
         </div>
       </div>
     </div>
-    <nuxt-link to="Pending Page">
-    <div class="p-[20px] flex space-between">
-      <button
-        class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-3/6"
-      >
-        Send Request
-      </button>
-      <button
-        class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-2/6"
-      >
-        Back
-      </button>
+
+  <nuxt-link to="Pending Page">
+    <div class="box-border ml-20 mr-20 mt-4 h-12 rounded-xl flex justify-center items-center" style="background-color: #0365B8"> 
+        
+        <h1 class="text-white text-center">
+            Send Request
+        </h1>
     </div>
-  </nuxt-link>
+    </nuxt-link>
   </div>
 </template>
 

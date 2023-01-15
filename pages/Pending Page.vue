@@ -10,19 +10,20 @@
         </p>
       </div>
       <button
-        class="block m-auto rounded-xl text-white bg-[#E58585] p-[5px] w-2/6"
+        class="block shadow-md m-auto rounded-xl text-white bg-[#E58585] p-[5px] w-2/6"
       >
         Cancel
       </button>
     </div>
-    <div class="h-3/5 w-screen bg-[#1e6bb0] overflow-y-auto pt-[25px]">
+    <nuxt-link to="Accept Prompt">
+    <div class="h-3/5 w-screen bg-[#6acde7] overflow-y-auto pt-[25px]">
       <div
         class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
         <div class="w-3/12">
           <img class="block mx-auto my-auto" src="../imgs/person1.png" />
         </div>
-        <div class="w-7/12">
+        <div class="w-7/12 shadow-md">
           <p class="text-[#6B6B6B] font-semibold">James Williamson</p>
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
@@ -39,8 +40,8 @@
       <div
         class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
-        <div class="w-3/12">
-          <img class="block mx-auto my-auto" src="../imgs/person2.png" />
+        <div class="w-3/12 shadow-md">
+          <img class="block  mx-auto my-auto" src="../imgs/person2.png" />
         </div>
         <div class="w-7/12">
           <p class="text-[#6B6B6B] font-semibold">Jesslyn Chai</p>
@@ -59,7 +60,7 @@
       <div
         class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
-        <div class="w-3/12">
+        <div class="w-3/12 shadow-md">
           <img class="block mx-auto my-auto" src="../imgs/person3.png" />
         </div>
         <div class="w-7/12">
@@ -79,7 +80,7 @@
       <div
         class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
-        <div class="w-3/12">
+        <div class="w-3/12 shadow-md">
           <img class="block mx-auto my-auto" src="../imgs/person4.png" />
         </div>
         <div class="w-7/12">
@@ -99,7 +100,7 @@
       <div
         class="rounded-xl w-5/6 h-3/12 bg-white mx-auto mb-[25px] flex items-stretch justify-around"
       >
-        <div class="w-3/12">
+        <div class="w-3/12 shadow-md">
           <img class="block mx-auto my-auto" src="../imgs/person1.png" />
         </div>
         <div class="w-7/12">
@@ -122,7 +123,7 @@
         <div class="w-3/12">
           <img class="block mx-auto my-auto" src="../imgs/person2.png" />
         </div>
-        <div class="w-7/12">
+        <div class="w-7/12 shadow-md">
           <p class="text-[#6B6B6B] font-semibold">Landra</p>
           <p class="text-[#6B6B6B] font-semibold">+601234567891</p>
           <p class="text-[#6B6B6B] font-semibold">
@@ -137,20 +138,28 @@
         <div class="w-1/12"></div>
       </div>
     </div>
-   <nuxt-link to="Accept Prompt">
-    <div class="p-[20px] flex space-between">
-      <button
-        class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-3/6"
-      >
-        Get QR Code
-      </button>
-      <button
-        class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-2/6"
-      >
-        Back
-      </button>
-    </div>
   </nuxt-link>
+   
+    <div class="pt-4 pl-6 flex space-between">
+      <nuxt-link to="qrcode">
+        <div class="box-border shadow-md p-10 h-4 rounded-xl flex justify-center items-center" style="background-color: #0365B8"> 
+            
+            <h1 class="text-white text-center">
+                Pay With QR
+            </h1>
+        </div>
+        </nuxt-link>
+        
+        <nuxt-link to="Party Amount">
+          <div class="box-border shadow-md ml-14 p-10 h-4 rounded-xl flex justify-center items-center" style="background-color: #a4a4a4"> 
+              
+              <h1 class="text-white text-center">
+                  Back 
+              </h1>
+          </div>
+          </nuxt-link>
+    </div>
+  
   </div>
 </template>
 

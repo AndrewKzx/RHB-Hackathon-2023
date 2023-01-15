@@ -74,6 +74,8 @@
         </div>
       </div>
     </div>
+
+    <nuxt-link to="homepage">
     <div class="pt-[25px]">
       <button
         class="block m-auto rounded-xl text-white bg-[#95D0A9] p-[15px] w-3/6"
@@ -81,6 +83,7 @@
         Back
       </button>
     </div>
+  </nuxt-link>
   </div>
 </template>
 
